@@ -1,0 +1,35 @@
+id: ut-jupyterlab-2
+name: Unit Test 2
+description: Unit Test 2
+readme: Empty for now
+revision: 0
+schema: 1
+tags: ['ubuntu', 'python3', 'jupyterlab']
+icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="
+os_class: ubuntu
+os_release: "16.04"
+license: MIT
+url: null
+image:
+  server: hub.docker.com
+  namespace: gigdev
+  repository: gm-quickstart
+  tag: 9718fedc-2018-01-16
+languages:
+  - python3
+development_tools:
+  - jupyterlab
+package_managers:
+  - apt:
+    - supervisor
+    - python3-dev
+    - python3-pip
+    - git
+    - curl
+    - vim
+  - pip3:
+    - numpy==1.14.0
+    - matplotlib==2.1.1
+    - jupyter==1.0.0
+    - jupyterlab==0.31.1
+

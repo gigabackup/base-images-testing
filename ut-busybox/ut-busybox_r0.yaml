@@ -1,0 +1,21 @@
+id: ut-busybox
+name: Unit Test Busybox
+description: Super lightweight image for build testing
+readme: Empty for now
+revision: 0
+schema: 1
+tags: ['busybox']
+icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="
+os_class: busybox
+os_release: "1.28"
+license: MIT
+url: null
+image:
+  server: hub.docker.com
+  namespace: library
+  repository: busybox
+  tag: 1.28.0
+languages: []
+development_tools: []
+package_managers:
+  - apt:
