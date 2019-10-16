@@ -1,4 +1,4 @@
-id: "rstudio-server"
+id: "ut-rstudio-server"
 name: "R Tidyverse in RStudio® Server"
 description: "R + tidyverse packages in RStudio® Server"
 readme: |
