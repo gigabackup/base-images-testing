@@ -51,6 +51,8 @@ RUN cd /tmp && wget --quiet https://repo.continuum.io/miniconda/Miniconda3-${MIN
     conda install pip && \
     conda clean --all
 
+RUN pip install self-improving-ai
+
 # Expose port for jupyterlab
 EXPOSE 8888
 
